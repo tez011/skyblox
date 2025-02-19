@@ -1,0 +1,7 @@
+stone
+dirt
+grass_block
+cobblestone
+glass_block
+red_glass_block
+glowstone

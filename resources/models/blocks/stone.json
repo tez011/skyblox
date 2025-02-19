@@ -1,0 +1,6 @@
+{
+    "parent": "blocks/cube_uniform",
+    "textures": {
+        "all": "blocks/stone"
+    }
+}

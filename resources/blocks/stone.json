@@ -1,0 +1,6 @@
+{
+    "states": [{
+        "state_name": "normal",
+        "model": "blocks/stone"
+    }]
+}

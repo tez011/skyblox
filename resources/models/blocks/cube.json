@@ -1,0 +1,24 @@
+{
+    "elements": [
+        {
+            "from": [0, 0, 0],
+            "to": [1, 1, 1],
+            "faces": {
+                "up": { "texture": "#up", "cull_self": true },
+                "down": { "texture": "#down", "cull_self": true },
+                "north": { "texture": "#north", "cull_self": true },
+                "south": { "texture": "#south", "cull_self": true },
+                "east": { "texture": "#east", "cull_self": true },
+                "west": { "texture": "#west", "cull_self": true }
+            }
+        }
+    ],
+    "cull_neighbors": [
+        "up",
+        "down",
+        "north",
+        "south",
+        "east",
+        "west"
+    ]
+}

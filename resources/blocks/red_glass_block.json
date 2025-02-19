@@ -1,0 +1,8 @@
+{
+    "states": [{
+        "state_name": "normal",
+        "model": "blocks/red_glass_block",
+        "opaque": false,
+        "translucent": true
+    }]
+}

@@ -1,0 +1,10 @@
+{
+    "states": [{
+        "state_name": "normal",
+        "model": "blocks/glowstone",
+        "light_source": {
+            "luminosity": [1, 0.09, 0.032],
+            "color": [255, 255, 255]
+        }
+    }]
+}
