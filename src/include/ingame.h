@@ -27,6 +27,7 @@ struct ingame_data_s {
     int8_t picked_block_face;
 
     float time_of_day, sun[3], moon[3];
+    int8_t time_advance_state;
 };
 extern struct ingame_data_s igdt;
 extern int chunk_render_radius;

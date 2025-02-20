@@ -28,5 +28,10 @@ void ingame_handle_input(SDL_Event *evt)
 			igdt.held_block = kc - SDLK_1 + 1;
 			igdt.held_block_state = 0;
 		}
+
+		if (kc == SDLK_COMMA)
+			igdt.time_advance_state--;
+		if (kc == SDLK_PERIOD)
+			igdt.time_advance_state++;
 	}
 }

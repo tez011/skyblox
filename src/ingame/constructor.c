@@ -11,7 +11,7 @@ bool ingame_init(int initial_width, int initial_height)
 	memset(&igdt, 0, sizeof(struct ingame_data_s));
 	igdt.loc[0] = 5;
 	igdt.loc[1] = 5;
-	igdt.loc[2] = 10;
+	igdt.loc[2] = 5;
 	igdt.held_block = 1;
 	igdt.time_of_day = 7;
 	memset(igdt.sun, 0, sizeof(igdt.sun));

@@ -122,7 +122,7 @@ void ingame_logic(int delta_ms)
 	find_picked_block();
 	player_navigate(delta_ms);
 
-	igdt.time_of_day = fmodf(igdt.time_of_day + delta_ms * 24.f / 60000, 24.f);
-	sun_params(igdt.sun, 42.346356, -71.097624, 181, igdt.time_of_day);
-	sun_params(igdt.moon, 42.346356, -71.097624, 181, fmod(igdt.time_of_day + 11, 24));
+	igdt.time_of_day = fmodf(igdt.time_of_day + delta_ms * powf(2.f, igdt.time_advance_state) / 60000, 24.f);
+	sun_params(igdt.sun, 37.7699727, -122.5091544, 181, igdt.time_of_day);
+	sun_params(igdt.moon, 37.7699727, -122.5091544, 181, fmod(igdt.time_of_day + 11, 24));
 }
